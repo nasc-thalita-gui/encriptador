@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    
+</head>
+<body>
+    <header>
+        <h1> &#128218; ALURA</h1>
+        <p class="lupa"> &#128269; Encriptador &#128270;</p>
+    </header>
+
+    <main>
+        <section>
+        <textarea class="text-area" style="resize: none" cols="41" rows="3" placeholder="Digite seu texto..."></textarea>
+
+            <div class="info">
+                <h6> &rBarr; Apenas letras minúsculas e sem acento!</h6>
+            </div>
+        
+            <div>
+                <button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        
+        </section>
+
+        <section>
+              <textarea class="mensagem" id="texto" style="resize: none" cols="10" rows="20" placeholder="Decifra-me!"></textarea>
+              <button class="copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    
+    </main>
+        <footer>
+            <p class="copyrigth">&copy; Thalita Nascimento - 2023 &#128521;</p>
+        </footer>   
+        <script src="script.js"></script>
+</body>
+</html>

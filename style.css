@@ -1,0 +1,116 @@
+*{ 
+    background: lightsalmon;
+    font-family: 'Unbounded', cursive;
+}
+
+.logo-alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+.lupa {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    margin-top: 0%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    
+}
+
+.text-area {
+    border: none;
+    color:blue;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 300%;
+    margin-left: 30px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10%;
+    margin-left: 30px;
+    color: black;
+}
+
+::placeholder {color: black;}
+  .text-area:focus {
+     outline: none;
+}
+
+  .criptografar {
+    width: 328px;
+    padding: 24px;
+    background: lightslategray;
+    color: white;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    height: 67px;
+    text-align: center;
+    line-height: 20px;
+
+}   
+ 
+.descriptografar {
+    width: 328px;
+    padding: 24px;
+    text-align: center;
+    background: lightslategray;
+    color:black;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 67px;
+    line-height: 20px;
+    margin-top: 0%;
+
+}
+
+.mensagem {
+    background: lightpink;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+.mensagem:focus {
+    outline: none;
+} 
+
+.copiar {
+    width: 328px;
+    padding: 24px;
+    text-align: center;
+    background:lightslategray;
+    color: black;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 15px;
+    height: 67px;
+    line-height: 19px;
+}
+
+.copyrigth {
+    text-align: center;
+}
